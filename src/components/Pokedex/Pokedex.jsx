@@ -1,10 +1,11 @@
-import './App.css'
-import Pokedex from './components/Pokedex/Pokedex'
+import Search from "../Search/Search";
+import './Pokedex.css'
 function Pokedex() {
   return (
-    <>
-      <Pokedex />
-    </>
+    <div className="pokedex-wrapper">
+       <h1 id="pokedex-heading">Pokedex</h1>
+      <Search/>
+    </div>
   );
 }
 

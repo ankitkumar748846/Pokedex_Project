@@ -1,11 +1,12 @@
-import './App.css'
+import './App.css';
+import Pokedex from './components/Pokedex/Pokedex';
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
-      Pokemon
+      <Pokedex/>
     </>
   )
 }
